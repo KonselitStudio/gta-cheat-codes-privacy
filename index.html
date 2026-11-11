@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -50,10 +50,7 @@
       line-height: 1.25;
       margin: 0 0 8px;
     }
-    h2 {
-      font-size: 1.15rem;
-      margin: 28px 0 8px;
-    }
+    h2 { font-size: 1.15rem; margin: 28px 0 8px; }
     p, li, .meta, address, .note {
       font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
       font-size: 0.98rem;
@@ -81,98 +78,169 @@
         Developer: Konselit Studio<br />
         Android package: com.konselit.gtacc<br />
         iOS bundle ID: com.konselit.gtacheats<br />
-        Effective date: September 18, 2026<br />
-        Last updated: September 18, 2026
+        Effective date: November 11, 2026<br />
+        Last updated: November 11, 2026
       </p>
 
       <p>
         This Privacy Policy explains how <strong>GTA Cheat Codes</strong>
-        (“the App”) handles information. The App is an unofficial offline
-        companion for Grand Theft Auto single-player cheat codes.
-        It is not affiliated with, endorsed by, or sponsored by Rockstar Games
-        or Take-Two Interactive.
+        (the “App”), developed by Konselit Studio (“we”, “us”, or “our”),
+        collects, uses, and handles information. The App is an unofficial
+        companion for Grand Theft Auto single-player cheat codes. Its cheat-code
+        reference content is available offline, but analytics features may
+        communicate with online services.
+      </p>
+      <p>
+        The App is not affiliated with, endorsed by, or sponsored by
+        Rockstar Games or Take-Two Interactive.
       </p>
 
-      <h2>1. Summary</h2>
+      <h2>1. At a glance</h2>
       <ul>
-        <li>No account registration</li>
-        <li>No advertising SDKs</li>
-        <li>No analytics SDKs</li>
-        <li>No developer-operated backend that receives your personal data</li>
-        <li>Favorites and theme preference stay on your device</li>
+        <li>No account registration is required.</li>
+        <li>The App does not contain advertising SDKs or in-app purchases.</li>
+        <li>We collect limited app usage and technical analytics to understand and improve the App.</li>
+        <li>Analytics are processed using Google Firebase Analytics and Konselit Studio's analytics infrastructure, which uses Supabase.</li>
+        <li>Favorites and theme preferences are stored locally on your device.</li>
+        <li>We do not ask you to provide your name, email address, or phone number to use the App.</li>
       </ul>
 
-      <h2>2. Information we store on your device</h2>
-      <p>The App may store the following locally on your device:</p>
+      <h2>2. Information stored on your device</h2>
+      <p>The App may store the following information locally:</p>
       <ul>
-        <li>Favorite / starred cheat codes</li>
-        <li>Theme preference (light / dark / system)</li>
+        <li>Favorite or starred cheat codes</li>
+        <li>Theme preference (light, dark, or system)</li>
       </ul>
       <p>
-        This information is stored using on-device storage (for example
-        AsyncStorage). It is not sent to a Konselit Studio server.
+        These preferences are stored using on-device storage, such as
+        AsyncStorage, and are not uploaded as a favorites list or settings
+        profile to our analytics backend.
       </p>
 
-      <h2>3. Information we do not collect</h2>
+      <h2>3. Analytics information we collect</h2>
+      <p>
+        We use Firebase Analytics and our own analytics infrastructure to
+        measure App usage, diagnose usage patterns, and improve content and
+        navigation. Depending on the platform, configuration, and features
+        used, analytics may include:
+      </p>
       <ul>
-        <li>Name, email, phone number, or other contact details inside the App</li>
-        <li>Precise location</li>
-        <li>Photos, contacts, microphone, or camera content</li>
-        <li>Advertising identifiers for tracking</li>
-        <li>Analytics event streams</li>
-        <li>Payment or purchase information (the App has no in-app purchases)</li>
+        <li>App interaction events, such as app/session starts, screen views, and cheat-code copy actions</li>
+        <li>Event timestamps, screen names, and relevant non-sensitive event properties</li>
+        <li>App version, operating system, device category or model, and language or locale information</li>
+        <li>App-installation, analytics, and session identifiers used to distinguish events or sessions without requiring an account</li>
+        <li>Approximate geographic information (such as country or region) derived by analytics providers from technical connection data</li>
       </ul>
-
-      <h2>4. Clipboard</h2>
       <p>
-        When you copy a cheat code, the App writes that code to your device
-        clipboard so you can paste it elsewhere. The App does not read your
-        clipboard for other purposes and does not upload clipboard content.
-      </p>
-
-      <h2>5. External links and third parties</h2>
-      <p>
-        The App is designed to work offline with bundled content. If a future
-        update opens a browser link or third-party site, that service’s own
-        privacy policy applies. We do not control third-party websites or apps.
+        Firebase Analytics may also process device identifiers, including
+        advertising identifiers where available and permitted by device
+        settings and SDK configuration. Our use of analytics is for App
+        measurement and improvement, not to serve personalized advertising.
+        Technical requests to service providers may involve processing IP
+        addresses for service operation and security.
       </p>
       <p>
-        App distribution platforms (Apple App Store / Google Play) may collect
-        information under their own policies when you download or update the App.
+        We do not ask for your precise GPS location, contacts, photos,
+        camera recordings, or microphone recordings. We do not intentionally
+        include your name, email address, or phone number in analytics events.
       </p>
 
-      <h2>6. Children’s privacy</h2>
+      <h2>4. Why we use this information</h2>
+      <ul>
+        <li>Understand which screens and features are used</li>
+        <li>Measure usage trends, sessions, and interactions with cheat-code content</li>
+        <li>Improve performance, usability, and the App's content</li>
+        <li>Maintain the reliability and security of our analytics services</li>
+      </ul>
       <p>
-        The App is not directed to children under 13, and we do not knowingly
-        collect personal information from children. If you believe a child has
-        provided personal information through the App, contact us so we can take
-        appropriate action.
+        We do not sell analytics information. The App does not use the
+        collected events to show personalized ads.
+      </p>
+
+      <h2>5. Clipboard</h2>
+      <p>
+        When you choose to copy a cheat code, the App writes the selected
+        code to your device's clipboard so you can paste it elsewhere.
+        A copy-action analytics event may be recorded; however, the App does
+        not read unrelated clipboard content or upload the contents of your
+        clipboard to our analytics backend.
+      </p>
+
+      <h2>6. Service providers and data transfers</h2>
+      <p>
+        We use the following service providers for analytics and supporting
+        infrastructure:
+      </p>
+      <ul>
+        <li><strong>Google Firebase Analytics:</strong> app usage measurement and reporting. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase privacy information</a>.</li>
+        <li><strong>Supabase:</strong> infrastructure used by Konselit Studio to receive, store, and analyze selected App analytics events. <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase Privacy Policy</a>.</li>
+      </ul>
+      <p>
+        Data processed through these services may be stored or processed in
+        countries other than your own, subject to the applicable providers'
+        terms, safeguards, and legal requirements. We use providers to operate
+        our analytics services; we do not sell this information to data brokers.
+      </p>
+      <p>
+        App distribution platforms, such as Google Play and the Apple App
+        Store, may separately process information under their own policies.
+        If you open an external website, its privacy practices will apply.
       </p>
 
       <h2>7. Data retention and deletion</h2>
       <p>
-        Local information remains on your device until you clear the App’s data
-        or uninstall it. Because the App does not use accounts or a remote
-        personal-data backend, there is no cloud profile to delete.
+        Local favorites and theme settings remain on your device until you
+        clear the App's data or uninstall it. Analytics events and related
+        technical identifiers may remain in Firebase Analytics and our
+        Supabase-backed systems for as long as reasonably necessary to
+        measure App usage, maintain our services, and meet applicable legal
+        requirements. Analytics data may be deleted or aggregated when no
+        longer needed. Retention within third-party platforms is also subject
+        to their configured retention settings.
       </p>
-
-      <h2>8. Changes to this policy</h2>
       <p>
-        We may update this Privacy Policy to reflect changes to the App, our
-        practices, or legal requirements. The revised date will be shown at the
-        top of this page.
+        Because the App does not require an account, we may not be able to
+        associate every historical analytics event with a particular person.
+        You can contact us at the address below to ask about the data we
+        process or request access to, correction of, or deletion of data where
+        applicable and technically possible. We will review requests in
+        accordance with applicable law.
       </p>
 
-      <h2>9. Contact us</h2>
-      <p>For privacy questions or requests, contact:</p>
+      <h2>8. Your privacy choices</h2>
+      <p>
+        Your device and operating system may offer controls for advertising
+        identifiers and certain data-processing preferences. You can also
+        contact us with questions about analytics collection or to exercise
+        applicable privacy rights. The App does not require you to create an
+        account to use its offline cheat-code reference features.
+      </p>
+
+      <h2>9. Children's privacy</h2>
+      <p>
+        The App is not directed to children under 13. We do not knowingly
+        request personal contact information from children. If you believe
+        information about a child has been collected inappropriately, please
+        contact us so that we can investigate and take appropriate action.
+      </p>
+
+      <h2>10. Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy to reflect changes to the App,
+        our analytics practices, service providers, or legal requirements.
+        Any changes will be reflected in the “Last updated” date above.
+      </p>
+
+      <h2>11. Contact us</h2>
+      <p>For privacy-related questions or requests, contact:</p>
       <address>
         Konselit Studio<br />
         <a href="mailto:konselit@gmail.com">konselit@gmail.com</a>
       </address>
 
       <p class="note">
-        © 2026 Konselit Studio. Grand Theft Auto and related marks are trademarks
-        of their respective owners. This is an unofficial fan app.
+        © 2026 Konselit Studio. Grand Theft Auto and related marks are
+        trademarks of their respective owners. This is an unofficial fan app.
       </p>
     </article>
   </main>
